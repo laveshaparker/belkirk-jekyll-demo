@@ -1,6 +1,6 @@
-title: Belkirk College of Engineering
-short_title: Belkirk
-description: Jekyll demo for Forestry CMS
+title: Progressive HackNight
+short_title: Progressive HackNight
+description: Progressive HackNight mobilizes tech workers for progressive causes.
 baseurl:
 permalink: "/:path/"
 defaults:

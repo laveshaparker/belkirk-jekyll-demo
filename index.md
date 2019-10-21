@@ -2,7 +2,7 @@
 title: Home
 banner_image: "/img/banner.png"
 layout: landing-page
-heading: Belkirk College
+heading: Progressive HackNight
 partners:
 - "/uploads/2017/11/13/stem.png"
 - "/uploads/2017/11/13/UPenn_logo.png"
@@ -17,9 +17,9 @@ services:
   heading: BioTech
   icon: "/uploads/2017/11/13/biotech.png"
 sub_heading: Engineering and Health Sciences
-textline: | 
-  Belkirk College of Engineering
-  
+textline: |
+  Progressive HackNight
+
   Ora et Labora
 hero_button:
   text: Learn more
