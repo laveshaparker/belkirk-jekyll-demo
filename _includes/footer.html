@@ -4,7 +4,7 @@
             <img src="{{ "/img/logo-white.png" | absolute_url }}" alt="" class="footer-logo">
         </div>
         <div class="footer-col pure-u-1 pure-u-md-1-4">
-            <h3>About {{ site.short_title }}</h3>
+            <h3>About</h3>
             <ul>
             {% for item in site.menus.footer %}
                 <li><a href="{{ item.url | absolute_url }}">{{ item.title }}</a></li>
@@ -12,19 +12,22 @@
             </ul>
         </div>
         <div class="footer-col pure-u-1 pure-u-md-1-4">
-            <h3>Projects</h3>
+            <h3>Work</h3>
             <ul>
-            {% for project in site.projects limit:5 %}
-                <li><a href="{{ project.url | absolute_url }}">{{ project.title }}</a></li>
-            {% endfor %}
-            {% if site.projects | size > 5 %}
-                <li><a href="{{ "/projects/" | absolute_url }}">See all projects</a></li>
-            {% endif %}
+                <li><a href="/events">Events</a></li>
+                <li><a href="/breakouts">Breakout Groups</a></li>
+                <li><a href="/speaker-guidelines">Speaker Submissions</a></li>
             </ul>
         </div>
         <div class="footer-col pure-u-1 pure-u-md-1-4">
-            <h3>Contact</h3>
-            {% include address.html %}
+            <h3>Social</h3>
+            <ul>
+                <li><a href="https://www.youtube.com/channel/UCJJuYC9vnwFLtHRfWYxz0MQ">YouTube</a></li>
+                <li><a href="https://www.facebook.com/progressivehacknight">Facebook</a></li>
+                <li><a href="https://twitter.com/proghacknight">Twitter</a></li>
+                <li><a href="https://github.com/ProgressiveHackNight/proghacknight.org">GitHub</a></li>
+            </ul>
+            {% include email.html %}
         </div>
 	</div>
 	<div class="copyright">
