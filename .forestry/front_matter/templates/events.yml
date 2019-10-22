@@ -4,16 +4,60 @@ hide_body: true
 fields:
 - type: text
   name: title
-  label: title
-- type: text
-  name: layout
-  label: layout
-- type: text
-  name: sub_heading
-  label: sub_heading
-- type: text
-  name: description
-  label: description
+  label: Title
+  description: Name of the HackNight (i.e. "Working Night" or "Amazon HQ2"
+- name: hacknight_number
+  type: number
+  label: Hacknight Number
+  description: Is this HackNight 1 or 2 or 20? Just include the number (i.e. "5")
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
 - type: datetime
-  name: publish_date
-  label: publish_date
+  name: date
+  label: Date
+  description: The date of the HackNight
+- name: location
+  type: text
+  config:
+    required: false
+  label: Location
+  description: Where the hacknight will be, can be the name of a building of an actual
+    address
+- name: eventbrite_link
+  type: text
+  config:
+    required: false
+  label: Eventbrite link
+  description: The link to the Eventbrite page where an attendee can sign up
+- name: why_it_matters
+  type: text
+  config:
+    required: false
+  label: Why it matters
+  description: Short explanation of why someone should attend this event, i.e. "Amazon
+    HQ2 threatens livelihoods and housing in NYC. Come learn about what folks are
+    doing to stop it."
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  description: The Long description of what this hacknight is about. Use Markdown.
+  label: Description
+- name: image
+  type: file
+  config:
+    maxSize: 250
+  label: Image
+  description: Some image that evokes whatever this HackNight is about
+- type: text
+  name: slide_url
+  label: Slide deck url
+  description: The URL to the slide deck of the speaker(s)'s notes
