@@ -4,6 +4,20 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: directory
+  path: _breakout_groups
+  label: Breakout Groups
+  create: all
+  match: "**/*"
+  templates:
+  - breakout-groups
+- type: directory
+  path: _events
+  label: Events
+  create: all
+  match: "**/*"
+  templates:
+  - events
 - type: heading
   label: Content
 - type: jekyll-posts
