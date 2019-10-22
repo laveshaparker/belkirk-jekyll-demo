@@ -61,3 +61,8 @@ fields:
   name: slide_url
   label: Slide deck url
   description: The URL to the slide deck of the speaker(s)'s notes
+- name: speaker
+  type: include
+  config: {}
+  template: person
+  label: Speaker
