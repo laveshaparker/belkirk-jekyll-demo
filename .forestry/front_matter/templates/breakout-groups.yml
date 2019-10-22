@@ -1,4 +1,53 @@
 ---
 label: Breakout Groups
 hide_body: false
-fields: []
+fields:
+- name: name
+  type: text
+  config:
+    required: false
+  label: Name
+  description: The name of the breakout group
+- name: issue_s_
+  type: tag_list
+  default: []
+  label: Issue(s)
+  description: The issue(s) this project addresses
+- name: skills
+  type: tag_list
+  default: []
+  label: Skills
+  description: The skills this project needs
+- name: date_joined
+  type: datetime
+  label: Date joined
+  description: The first date this project came to a HackNight
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: last_seen
+  type: datetime
+  label: Last seen
+  description: The last date we have interacted with this project
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: project_leads
+  type: tag_list
+  default: []
+  label: Project leads
+  description: List of names of project leads
+- name: short_project_description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Short project description
+  description: A short description of the project (Markdown)
