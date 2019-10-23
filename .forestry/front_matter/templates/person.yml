@@ -1,10 +1,16 @@
 ---
-label: person
+label: Team member
 hide_body: false
 fields:
 - type: text
   name: title
   label: Name
+- name: pronouns
+  type: text
+  config:
+    required: false
+  label: Pronouns
+  description: This person's gender pronouns
 - name: position
   label: Position
   type: text
