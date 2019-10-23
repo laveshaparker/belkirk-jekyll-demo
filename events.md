@@ -1,7 +1,7 @@
 ---
 heading: ''
 sub_heading: ''
-layout: home
+layout: events
 title: Events
 banner_image: ''
 hero_button:
@@ -12,5 +12,9 @@ services: []
 show_news: false
 partners: []
 show_staff: false
+menu:
+  navigation:
+    identifier: _about
+    weight: 2
 
 ---

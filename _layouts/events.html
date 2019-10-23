@@ -1,0 +1,24 @@
+---
+layout: default
+---
+{% comment %}
+	This layout is used to by events.md to display all of documents in
+	the _events/ collection
+{% endcomment %}
+
+{% include breadcrumbs.html class="content-narrow" %}
+
+{% for event in site.events %}
+<div class="container pure-g">
+  <div class="pure-u-1">
+      <div class="content content-narrow">
+        <div class="list-layout">
+          <h2><a href="{{ event.url | absolute_url }}">{{ event.title }}</a></h2>
+          <div>{{ event.description | truncatewords: 30 }}</div>
+          <date>{{ event.date | date_to_string }}</date>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endfor %}
