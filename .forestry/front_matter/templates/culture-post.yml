@@ -1,4 +1,46 @@
 ---
 label: Culture post
 hide_body: false
-fields: []
+fields:
+- name: post_name
+  type: text
+  config:
+    required: false
+  label: Post name
+- name: author
+  type: text
+  config:
+    required: false
+  label: Author
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
+- name: published_date
+  type: datetime
+  label: Published date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: short_description
+  type: text
+  config:
+    required: false
+  label: Short description
+- name: post_body
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Post body
+- name: post_image
+  type: file
+  config:
+    maxSize: 250
+  label: Post image
