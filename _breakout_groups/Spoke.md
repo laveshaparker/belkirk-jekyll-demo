@@ -1,7 +1,7 @@
 ---
 heading: Spoke is a peer to peer hero heading
 sub_heading: ''
-layout: home
+layout: breakoutgroup
 title: Spoke
 banner_image: "/uploads/2018/12/07/compass.jpg"
 hero_button:
@@ -22,8 +22,8 @@ skills:
 - React
 - " Developer"
 - " Node.js"
-date_joined: '2017-02-15 23:30:00 +0000'
-last_seen: '2019-10-23 04:00:00 +0000'
+date_joined: 2017-02-15 23:30:00 +0000
+last_seen: 2019-10-23 04:00:00 +0000
 project_leads:
 - Sky
 short_project_description: |-

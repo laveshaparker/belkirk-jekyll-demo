@@ -58,3 +58,5 @@ fields:
   label: layout
   hidden: true
   default: breakoutgroup
+pages:
+- _breakout_groups/Spoke.md
