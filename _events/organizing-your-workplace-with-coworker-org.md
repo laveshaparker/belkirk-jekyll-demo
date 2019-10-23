@@ -2,7 +2,7 @@
 twitter_handle: person
 title: Organizing your Workplace with Coworker.org
 hacknight_number: 60
-date: 2019-10-23 22:30:00 +0000
+date: 2019-10-22 22:30:00 +0000
 location: ThoughtWorks, Inc. 99 Madison Avenue, New York, NY, 10016
 eventbrite_link: ''
 why_it_matters: Join us on October 23rd as Progressive HackNight and Coworker.org
@@ -50,5 +50,6 @@ slide_url: ''
 position: Director of Worker Resources and Training from Coworker.org
 thumbnail: "/uploads/2017/11/14/joseph-gonzalez-399972.jpg"
 pronouns: ''
+layout: ''
 
 ---
