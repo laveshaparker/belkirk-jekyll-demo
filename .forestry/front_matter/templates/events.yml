@@ -71,7 +71,7 @@ fields:
   config:
     required: true
   label: Layout
-  hidden: true
+  hidden: false
   default: events
 pages:
 - _events/organizing-your-workplace-with-coworker-org.md
