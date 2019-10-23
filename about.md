@@ -10,12 +10,11 @@ textline: A multidisciplinary centre of experts who are essential to patient-ori
 publish_date: '2017-12-01T04:00:00.000+00:00'
 show_staff: true
 menu:
+  navigation:
+    weight: 4
   footer:
     identifier: _about
     weight: 3
-  navigation:
-    identifier: _about
-    weight: 2
 
 ---
 **Progressive Hack Night** is building a movement of progressive tech workers that are active in the national and local political conversation. We educate tech workers about important social issues giving them the context to develop technology co-created with advocates, coalitions, and organizations  

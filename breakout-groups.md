@@ -13,5 +13,9 @@ services: []
 show_news: false
 partners: []
 show_staff: false
+menu:
+  navigation:
+    identifier: _contact
+    weight: 2
 
 ---

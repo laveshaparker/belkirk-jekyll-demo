@@ -15,6 +15,6 @@ show_staff: false
 menu:
   navigation:
     identifier: _events
-    weight: 2
+    weight: 1
 
 ---
