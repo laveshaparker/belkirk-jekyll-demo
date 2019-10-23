@@ -1,13 +1,13 @@
 ---
-heading: ''
+heading: Spoke is a peer to peer hero heading
 sub_heading: ''
 layout: home
-title: ''
-banner_image: ''
+title: Spoke
+banner_image: "/uploads/2018/12/07/compass.jpg"
 hero_button:
   text: ''
   href: ''
-textline: ''
+textline: More description text
 services: []
 show_news: false
 partners: []
