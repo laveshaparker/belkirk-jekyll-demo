@@ -51,3 +51,10 @@ fields:
       format: markdown
   label: Short project description
   description: A short description of the project (Markdown)
+- name: layout
+  type: text
+  config:
+    required: true
+  label: layout
+  hidden: true
+  default: breakoutgroup
