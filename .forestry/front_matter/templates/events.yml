@@ -66,3 +66,5 @@ fields:
   config: {}
   template: person
   label: Speaker
+pages:
+- _events/organizing-your-workplace-with-coworker-org.md
