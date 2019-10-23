@@ -34,6 +34,5 @@ short_project_description: |-
   ### Who will benefit (directly and indirectly) from this project?
 
   MoveOn.org maintains Spoke and has contacted millions of people with it. It has benefited GetUp in Australia, initially for their successful marriage-equality campaign in 2017. Many other organizations are using it from Color of Change to the Working Families Party.
-published: false
 
 ---
