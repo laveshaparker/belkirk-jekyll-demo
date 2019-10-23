@@ -50,6 +50,6 @@ slide_url: ''
 position: Director of Worker Resources and Training from Coworker.org
 thumbnail: "/uploads/2017/11/14/joseph-gonzalez-399972.jpg"
 pronouns: ''
-layout: events
+layout: event
 
 ---
