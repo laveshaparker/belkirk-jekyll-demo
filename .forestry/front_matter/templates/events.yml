@@ -66,5 +66,12 @@ fields:
   config: {}
   template: person
   label: Speaker
+- name: layout
+  type: text
+  config:
+    required: false
+  label: Layout
+  hidden: true
+  default: event
 pages:
 - _events/organizing-your-workplace-with-coworker-org.md
