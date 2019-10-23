@@ -14,7 +14,7 @@ partners: []
 show_staff: false
 menu:
   navigation:
-    identifier: _about
+    identifier: _events
     weight: 2
 
 ---
